@@ -2,6 +2,38 @@
 
 This repository contains my full pipeline for the Kaggle competition [NLP - Getting Started](https://www.kaggle.com/competitions/nlp-getting-started). The goal is to classify whether a tweet is about a real disaster or not (`target = 1` or `0`).
 
+### 🚀 Installation
+
+1. Clone the repository:  
+```  
+git clone https://github.com/SergKhachikyan/London_House_Price_Prediction_Advanced_Techniques.git
+```
+2. Change directory:
+```
+cd London_House_Price_Prediction_Advanced_Techniques
+```
+3. Create virtual environment:
+```
+py -m venv venv
+```
+4. Activate virtual environment:
+```
+venv\Scripts\activate
+```
+5. Update the package manager:
+```
+py -m pip install -U pip
+```
+6.Install dependencies:
+```
+pip install -r requirements.txt  
+```
+7.Launch the notebook:
+```
+jupyter notebook untitled.ipynb
+```  
+
+
 ### 📂 Project Structure:
 - `train.csv` / `test.csv` – original dataset
 - `submission.csv` – prediction file for Kaggle submission
